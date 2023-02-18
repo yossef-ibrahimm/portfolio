@@ -1,0 +1,155 @@
+
+@media screen and (max-width: 1200px) {
+  :root {
+    --width: 90%;
+  }
+  body {
+    font-size: 13px;
+  }
+  .main .container .container-skills .skills i {
+    font-size: 5em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  :root {
+    --width: 97%;
+  }
+  h1,
+  h3 {
+    text-align: center !important;
+  }
+  body {
+    font-size: 10px;
+  }
+  #goTop {
+    width: 20px;
+  }
+  #goTop .clone span,
+  #goTop .text span {
+    font-size: 0;
+  }
+  .section {
+    padding: 20px 5px;
+
+    -webkit-box-orient: vertical;
+
+    -webkit-box-direction: reverse;
+
+    -ms-flex-direction: column-reverse;
+
+    flex-direction: column-reverse;
+  }
+  .section .svgImage {
+    width: 100%;
+  }
+  .section .container {
+    width: 100%;
+  }
+  .section .container .text {
+    font-size: 1.5em;
+  }
+  .main .container {
+    margin: 0;
+  }
+  .main .container .container-skills {
+    width: 100vw;
+  }
+  .main .container .container-skills .skills {
+    gap: 1em;
+    padding: 10px;
+  }
+  .main .container .container-skills .skills i {
+    font-size: 4em;
+  }
+  .main .container .progressive_div {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+  }
+  .progressives {
+    margin: 10px;
+  }
+
+  .main .container .contact .contact_me {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+  .main .container .contact .contact_me .title {
+    text-align: center;
+  }
+
+  .main .container .contact .contact_me .contactForm {
+    width: 100%;
+  }
+  .main .container .contact .contact_me .social_contact .social_icons_div {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+  .main .container .contact .contact_me .social_contact .social_icons_div div {
+    margin: 10px;
+  }
+  .main .container .contact .aboutMe {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    margin-top: 5px;
+    gap: 10px;
+  }
+  .main .container .contact .aboutMe p {
+    font-size: 1.2em;
+  }
+  .main .container .my_projects .projects .left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  .main .container .my_projects .projects .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .main .container .my_projects .projects .project {
+    margin: 10px 0;
+    padding: 0;
+  }
+  .main .container .my_projects .projects .project .info h2 {
+    font-size: 2.5em;
+  }
+  .main .container .my_projects .projects .project .info h4 {
+    font-size: 1.3em;
+  }
+  .main
+    .container
+    .progressive_div
+    .progressives
+    .progressive
+    .div_bar_progressive
+    .bar_progressive
+    .progressive_number {
+    right: -35px;
+    top: -40px;
+  }
+  form {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  body:hover > #trailer {
+    opacity: 0 !important ;
+  }
+
+  #trailer {
+    opacity: 0 !important;
+  }
+}
