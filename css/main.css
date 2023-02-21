@@ -47,7 +47,7 @@ body {
   background: #151320;
   width: 100vw;
   height: 100vh;
-  z-index: 999999999;
+  z-index: 9999999999999999;
   position: absolute;
   display: flex;
   justify-content: center;
