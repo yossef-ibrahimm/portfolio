@@ -68,6 +68,19 @@ const next = () => {
   counter = (counter + 1) % phrases.length;
 };
 next();
+
+/* loder */
+
+let loder = document.querySelector(".loader_main_div");
+let body = document.querySelector("body");
+setTimeout(() => {
+  loder.style.cssText = "opacity:0;";
+  setTimeout(() => {
+    loder.style.cssText = "display:none;";
+  }, 1000);
+  body.style.overflowY = "auto";
+}, 2000);
+
 /* skills progressive */
 let progressiveNum = document.querySelectorAll(".progressive_number");
 let divprogressive = document.querySelector(".progressive_div");
@@ -161,9 +174,7 @@ window.onscroll = function () {
   skillsprogressive();
   scrollBar();
 };
-
 const trailer = document.getElementById("trailer");
-
 const animateTrailer = (e, interacting) => {
   const x = e.clientX - trailer.offsetWidth / 2,
     y = e.clientY - trailer.offsetHeight / 2;
@@ -177,7 +188,6 @@ const animateTrailer = (e, interacting) => {
     fill: "forwards",
   });
 };
-
 const getTrailerClass = (type) => {
   switch (type) {
     case "link":
@@ -188,7 +198,6 @@ const getTrailerClass = (type) => {
       return "fa-solid fa-code";
   }
 };
-
 window.onmousemove = (e) => {
   const interactable = e.target.closest(".interactable"),
     interacting = interactable !== null;
