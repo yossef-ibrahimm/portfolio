@@ -1,4 +1,3 @@
-
 @media screen and (max-width: 1200px) {
   :root {
     --width: 90%;
@@ -104,8 +103,8 @@
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-    -ms-flex-direction: column-reverse;
-    flex-direction: column-reverse;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .main .container .my_projects .projects .right {
     display: -webkit-box;
@@ -113,8 +112,8 @@
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
   .main .container .my_projects .projects .project {
     margin: 10px 0;
